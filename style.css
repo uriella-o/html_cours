@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: black;
+    --white: white;
+    --grey: grey;
+    --orange: rgb(189, 125, 6);
+}
+main{
+    background-color: var(--white);
+    width: 100vw;
+    height: 100vh;
+}
+main div:nth-of-type(1){
+    border-bottom: 2px solid var(--grey);
+    width: 100vw;
+    height: 50px;
+}
+.w1{
+    word-spacing: 40px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    z-index: 3;
+    margin: 15px 0px 0px 400px;
+}
+.w1:visited{
+    color: var(--grey);
+}
+.w1 a{
+    text-decoration: none;
+    color: var(--grey);
+}
+.w1 a:hover{
+    color: var(--black);
+}
+.furnt{
+    color: var(--black);
+    font-weight: 900;
+    font-size: x-large;
+    font-family: sans-serif ;
+    font-style: italic;
+    position: absolute;
+    z-index: 3;
+    margin: 8px 0px 0px 80px;
+}
+.fa-solid{
+    font-size: 20px;
+    margin: 15px 0px 0px 1200px;
+}
+.word1{
+    background-color: var(--white);
+    width: 100vw;
+    height: 200px;
+    border-bottom:2px solid var(--grey) ;
+}
+.w{
+    position: absolute;
+    z-index: 2;
+    color: var(--black);
+    font-size: 70px;
+    margin: 8px 0px 0px 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.r{
+    position: absolute;
+    z-index: 2;
+    margin: 100px 0px 0px 40px;
+    color: var(--black);
+    font-size: 70px;
+    font-weight: 800;
+    font-family: sans-serif;
+}    
+
+.word2{
+    background-color: var(--white);
+    width: 100vw;
+    height: 100px;
+}
+.v{
+    color: var(--black);
+    background-color:  var(--white);
+    font-family: sans-serif;
+    margin: 90px 0px 0px 500px;
+    font-weight: 700;
+    font-size: large;
+    border: 0px solid transparent;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.d{
+    color: var(--white);
+    background-color:  var(--orange);
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 10px 0px 0px 1000px;
+    font-weight: 700;
+    font-size: large;
+    border: 0px solid transparent;
+    width: 230px;
+    height: 60px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;    
+}
+.fa-play{
+    position: absolute;
+    z-index: 3;
+    top: 441px;
+    left: -480px;
+    color: black;
+}
+.a{
+    line-height: 25px;
+    color: var(--black);
+    position: absolute;
+    z-index: 2;
+    margin: 10px 0px 0px 40px;
+}
+.fa-arrow-right-long{
+    position: absolute;
+    z-index: 2;
+    color: var(--white);
+    top: 265px;
+    left: -12px;
+}
+.fa-arrow-right-long:hover{
+    color: var(--black);
+}
+.d:hover{
+    color: var(--black);
+}
